@@ -4,3 +4,4 @@ transformers
 opencv-python-headless
 pillow
 numpy
+gTTS

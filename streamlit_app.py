@@ -19,7 +19,7 @@ import tempfile
 # -----------------------------
 # CONFIG
 # -----------------------------
-st.set_page_config(page_title="VISIO Hybrid OCR", layout="wide")
+st.set_page_config(page_title="ASAP Hybrid OCR", layout="wide")
 TARGET_SIZE = (1024, 1024)
 
 # -----------------------------
@@ -107,7 +107,7 @@ def clean_text(text: str) -> str:
 # -----------------------------
 # UI
 # -----------------------------
-st.title("VISIO Hybrid OCR System")
+st.title("ASAP Hybrid OCR System")
 st.caption("Transformer-based Optical Character Recognition")
 
 # Session state
@@ -180,4 +180,5 @@ st.markdown(
     "• Works for Printed, Handwritten, and Curved text \n"
     "• Crop the image tightly around the word for higher accuracy \n"
 )
+
 

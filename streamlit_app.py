@@ -32,21 +32,21 @@ def load_models():
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
     # Handwritten
-    proc_hw = TrOCRProcessor.from_pretrained("trocr_handwritten")
+    proc_hw = TrOCRProcessor.from_pretrained("microsoft/trocr-large-handwritten")
     model_hw = VisionEncoderDecoderModel.from_pretrained(
-        "trocr_handwritten",
+        "microsoft/trocr-large-handwritten"
     ).to(device).eval()
 
     # Printed
-    proc_pr = TrOCRProcessor.from_pretrained("trocr_printed")
+    proc_pr = TrOCRProcessor.from_pretrained("microsoft/trocr-large-printed")
     model_pr = VisionEncoderDecoderModel.from_pretrained(
-        "trocr_printed",
+        "microsoft/trocr-large-printed"
     ).to(device).eval()
 
     # Curved (fine-tuned TrOCR)
-    proc_cv = TrOCRProcessor.from_pretrained("seq2seq_model_printed")
+    proc_cv = TrOCRProcessor.from_pretrained("rijilraj77/trocr-curved-finetuned")
     model_cv = VisionEncoderDecoderModel.from_pretrained(
-        "seq2seq_model_printed"
+        "rijilraj77/trocr-curved-finetuned"
     ).to(device).eval()
 
     return {

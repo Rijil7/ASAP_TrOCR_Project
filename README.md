@@ -1,4 +1,4 @@
-__VISIO TrOCR-Based OCR System__
+**__VISIO TrOCR-Based OCR System__**
 
 **Project Overview**
 * VISIO is a deep learning based Optical Character Recognition (OCR) system built using Microsoft’s TrOCR models.
@@ -61,9 +61,8 @@ The application will open in browser at:
 
 * Internet connection is required for first-time model download.
 
-**OCR Type**                    **Model**
-+ Printed            Text	microsoft/trocr-large-printed
-+ Handwritten        Text	microsoft/trocr-large-handwritten
-- Curved Text       	Fine-tuned TrOCR Model
-
-+ The curved text model is a fine-tuned version of TrOCR, trained to recognize distorted and curved text patterns more accurately.
+**OCR Type and Models used**
++ Printed      ----->     Text	microsoft/trocr-large-printed
++ Handwritten  ----->     Text	microsoft/trocr-large-handwritten
++ Curved Text  ----->     Fine-tuned TrOCR Model
+     + The curved text model is a fine-tuned version of TrOCR, trained to recognize distorted and curved text patterns more accurately.

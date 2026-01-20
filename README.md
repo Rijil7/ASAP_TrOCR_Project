@@ -3,10 +3,10 @@ VISIO TrOCR-Based OCR System
 Project Overview
 * VISIO is a deep learning based Optical Character Recognition (OCR) system built using Microsoft’s TrOCR models.
 * It supports recognition of:
-  *Printed text
-  *Handwritten text
-  *Curved text (using a fine-tuned TrOCR model)
-*The system provides accurate text extraction through a Streamlit-based web interface along with text-to-speech audio output.
+  * Printed text
+  * Handwritten text
+  * Curved text (using a fine-tuned TrOCR model)
+* The system provides accurate text extraction through a Streamlit-based web interface along with text-to-speech audio output.
 
 
 Features:

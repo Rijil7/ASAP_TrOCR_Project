@@ -1,7 +1,7 @@
 # streamlit_app.py
-# VISIO Hybrid OCR – Full Document + Handwritten OCR
-# Uses Tesseract for full documents (printed)
-# Uses TrOCR for cropped / handwritten text
+# Hybrid OCR – Printed + Handwritten + Curved 
+# Uses Pre-trained TrOCR for Printed / handwritten text
+# Uses Fine-tuned TrOCR model for curved text
 # Produces RAW output and ACCURATE (post-processed) output
 
 import io
@@ -180,3 +180,4 @@ st.markdown(
     "• Works for Printed, Handwritten, and Curved text \n"
     "• Crop the image tightly around the word for higher accuracy \n"
 )
+

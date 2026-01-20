@@ -1,6 +1,6 @@
-VISIO TrOCR-Based OCR System
+__VISIO TrOCR-Based OCR System__
 
-Project Overview
+**Project Overview**
 * VISIO is a deep learning based Optical Character Recognition (OCR) system built using Microsoft’s TrOCR models.
 * It supports recognition of:
   * Printed text
@@ -9,7 +9,7 @@ Project Overview
 * The system provides accurate text extraction through a Streamlit-based web interface along with text-to-speech audio output.
 
 
-Features:
+**Features:**
 * TrOCR for printed text recognition
 * TrOCR for handwritten text recognition
 * Fine-tuned TrOCR model for curved text
@@ -19,7 +19,7 @@ Features:
 * Fully deep-learning based OCR (no classical OCR engines used)
 
 
-Technologies Used:
+**Technologies Used**
 * Python
 * Streamlit
 * PyTorch
@@ -31,7 +31,7 @@ Technologies Used:
 
 
 
-How to Run the Project (Local Execution):
+**How to Run the Project (Local Execution):**
 + This project is intended to be executed locally due to the large size of deep learning models and hardware requirements.
 
 Step 1: Clone the Repository
@@ -52,7 +52,7 @@ The application will open in browser at:
 👉 http://localhost:8501
 
 
-NOTE:
+**NOTE:**
 * This project uses deep learning OCR models (TrOCR) which are large in size.
 
 * Hence, models are not uploaded directly to this GitHub repository.
@@ -61,9 +61,9 @@ NOTE:
 
 * Internet connection is required for first-time model download.
 
-OCR Type                      Model
-Printed            Text	microsoft/trocr-large-printed
-Handwritten        Text	microsoft/trocr-large-handwritten
-Curved Text       	Fine-tuned TrOCR Model
+**OCR Type**                    **Model**
++ Printed            Text	microsoft/trocr-large-printed
++ Handwritten        Text	microsoft/trocr-large-handwritten
+- Curved Text       	Fine-tuned TrOCR Model
 
-The curved text model is a fine-tuned version of TrOCR, trained to recognize distorted and curved text patterns more accurately.
++ The curved text model is a fine-tuned version of TrOCR, trained to recognize distorted and curved text patterns more accurately.

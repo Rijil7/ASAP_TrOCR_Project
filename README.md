@@ -9,8 +9,7 @@ Project Overview
 * The system provides accurate text extraction through a Streamlit-based web interface along with text-to-speech audio output.
 
 
-Features:
-* TrOCR for printed text recognition
+Features:* TrOCR for printed text recognition
 * TrOCR for handwritten text recognition
 * Fine-tuned TrOCR model for curved text
 * Cleaned and post-processed OCR output

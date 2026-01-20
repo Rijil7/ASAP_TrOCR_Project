@@ -19,7 +19,7 @@
 * Fully deep-learning based OCR (no classical OCR engines used)
 
 
-**Technologies Used**
+**Technologies Used:**
 * Python
 * Streamlit
 * PyTorch
@@ -61,7 +61,7 @@ The application will open in browser at:
 
 * Internet connection is required for first-time model download.
 
-**OCR Type and Models used**
+**OCR Type and Models used:**
 + Printed      ----->     Text	microsoft/trocr-large-printed
 + Handwritten  ----->     Text	microsoft/trocr-large-handwritten
 + Curved Text  ----->     Fine-tuned TrOCR Model

@@ -32,7 +32,7 @@ Technologies Used:
 
 
 How to Run the Project (Local Execution):
-This project is intended to be executed locally due to the large size of deep learning models and hardware requirements.
++ This project is intended to be executed locally due to the large size of deep learning models and hardware requirements.
 
 Step 1: Clone the Repository
 git clone https://github.com/Rijil7/ASAP_TrOCR_Project.git

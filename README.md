@@ -66,3 +66,5 @@ The application will open in browser at:
 + Handwritten  ----->     Text	microsoft/trocr-large-handwritten
 + Curved Text  ----->     Fine-tuned TrOCR Model
      + The curved text model is a fine-tuned version of TrOCR, trained to recognize distorted and curved text patterns more accurately.
+     + Fine-tuned curved text model available at:
+https://huggingface.co/rijilraj77/trocr-curved-finetuned
